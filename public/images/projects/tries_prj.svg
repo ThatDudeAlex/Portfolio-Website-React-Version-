@@ -1,0 +1,79 @@
+<svg width="300" height="443" xmlns="http://www.w3.org/2000/svg">
+ <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+
+ <title>Group</title>
+ <desc>Created with Sketch.</desc>
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="445" width="302" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <path stroke-linecap="square" stroke-width="8" stroke="#009AD3" id="Line" d="m104.5,52.5l-35,46"/>
+  <path stroke-linecap="square" stroke-width="8" stroke="#009AD3" id="Line-2" d="m124.5,59.5l0,40"/>
+  <path stroke-linecap="square" stroke-width="8" stroke="#009AD3" id="Line-3" d="m145.5,53.5l39,48"/>
+  <path stroke-linecap="square" stroke-width="8" id="Line-4" d="m180,132l-15.5,34.5" stroke="#009AD3"/>
+  <path stroke="#009AD3" stroke-linecap="square" stroke-width="8" id="Line-5" d="m40.5,251.5l32,27"/>
+  <path stroke="#009AD3" stroke-linecap="square" stroke-width="8" id="Line-6" d="m35.5,193.5l-9,36"/>
+  <path stroke="#009AD3" stroke-linecap="square" stroke-width="8" id="Line-7" d="m53.5,131.5l-11,38"/>
+  <circle r="26" cy="28" cx="125" fill="#009AD3" id="Oval-3"/>
+  <circle r="19.999998" cy="121" cx="124" fill="#009AD3" id="Oval-3-Copy"/>
+  <circle r="19.999998" cy="106" cx="63" fill="#009ad3" id="Oval-3-Copy-2"/>
+  <circle r="14.5" cy="172.5" cx="41.5" fill="#009AD3" id="Oval-3-Copy-4"/>
+  <circle r="14.5" cy="237.5" cx="24.5" fill="#009AD3" id="Oval-3-Copy-5"/>
+  <circle r="14.5" cy="281.5" cx="76.5" fill="#009AD3" id="Oval-3-Copy-6"/>
+  <circle r="14.5" cy="172.5" cx="161.5" fill="#009AD3" id="Oval-3-Copy-7"/>
+  <circle r="20" cy="106" cx="186" fill="#009AD3" id="Oval-3-Copy-3"/>
+  <path stroke="#009AD3" stroke-linecap="square" stroke-width="8" id="svg_1" d="m157.5,34.5l127,63"/>
+  <path stroke-linecap="square" stroke-width="8" id="svg_2" d="m247.25039,182.24911l19.25061,32.75025" stroke="#009AD3"/>
+  <path stroke-linecap="square" stroke-width="8" id="svg_3" d="m221.75054,182.49923l-16.24952,33.50013" stroke="#009AD3"/>
+  <path stroke-linecap="square" stroke-width="8" id="svg_4" d="m263.5,128.5l-22,29" stroke="#009AD3"/>
+  <circle r="19.999998" cy="106" cx="278" fill="#009AD3" id="svg_5"/>
+  <circle r="14.5" cy="164.5" cx="234.5" fill="#009AD3" id="svg_6"/>
+  <circle r="14.5" cy="217.999359" cx="206.500999" fill="#009AD3" id="svg_7"/>
+  <circle r="14.5" cy="216.999359" cx="265.500999" fill="#009AD3" id="svg_8"/>
+  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_9" y="63.000002" x="64.242427" stroke-opacity="null" stroke-width="0" stroke="null" fill="#009ad3">A</text>
+  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_11" y="145.000002" x="27.242427" stroke-opacity="null" stroke-width="0" stroke="null" fill="#009ad3">L</text>
+  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_12" y="209.000002" x="3.242427" stroke-opacity="null" stroke-width="0" stroke="null" fill="#009ad3">E</text>
+  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_13" y="283.000002" x="31.242427" stroke-opacity="null" stroke-width="0" stroke="null" fill="#009ad3">X</text>
+  <path stroke-linecap="square" stroke-width="8" id="svg_14" d="m111,144l-17.5,26.5" stroke="#009AD3"/>
+  <circle r="14.5" cy="175.5" cx="90.5" fill="#009AD3" id="svg_15"/>
+  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_16" y="90.000002" x="130.242427" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#009AD3" fill="#009ad3">T</text>
+  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_18" y="169.000002" x="112.242427" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="null" fill="#009ad3">O</text>
+  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_19" y="290.000002" x="70.242427" stroke-opacity="null" stroke-width="0" stroke="null" fill="#ffffff">2</text>
+  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_22" y="77.000002" x="171.242427" stroke-opacity="null" stroke-width="0" stroke="null" fill="#009ad3">M</text>
+  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_23" y="163.000002" x="183.242427" stroke-opacity="null" stroke-width="0" stroke="null" fill="#009ad3">Y</text>
+  <text style="cursor: move;" xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_24" y="59.248054" x="224.578039" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#009AD3" fill="#009ad3">W</text>
+  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_26" y="134.746751" x="232.577391" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#009AD3" fill="#009ad3">E</text>
+  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_27" y="197.246056" x="193.827266" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#009AD3" fill="#009ad3">L</text>
+  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_28" y="193.9961" x="263.32815" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#009AD3" fill="#009ad3">B</text>
+  <path stroke-linecap="square" stroke-width="8" id="svg_10" d="m189.5,231.5l-25,22" stroke="#009AD3"/>
+  <circle r="14.5" cy="263.5" cx="155.5" fill="#009AD3" id="svg_17"/>
+  <circle r="14.5" cy="266.5" cx="231.5" fill="#009AD3" id="svg_25"/>
+  <text fill="#009ad3" stroke="null" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="159.888889" y="238.333333" id="svg_30" font-size="24" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">C</text>
+  <text fill="#009ad3" stroke="null" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="253.888889" y="258.333333" id="svg_31" font-size="24" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">S</text>
+  <circle r="14.5" cy="327.5" cx="155.5" fill="#009AD3" id="svg_33"/>
+  <text fill="#009ad3" stroke="null" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="130.888889" y="303" id="svg_34" font-size="24" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">O</text>
+  <text fill="#009ad3" stroke="null" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="237.888889" y="309" id="svg_37" font-size="24" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">I</text>
+  <path stroke-linecap="square" stroke-width="8" id="svg_38" d="m155.2504,283.24911l-0.74939,29.75025" stroke="#009AD3"/>
+  <circle r="14.5" cy="374.5" cx="116.5" fill="#009AD3" id="svg_40"/>
+  <path stroke-linecap="square" stroke-width="8" id="svg_41" d="m142.25051,346.24911l-17.74941,19.75025" stroke="#009AD3"/>
+  <circle r="14.5" cy="419.5" cx="75.5" fill="#009AD3" id="svg_42"/>
+  <path stroke-linecap="square" stroke-width="8" id="svg_43" d="m101.25051,391.24911l-17.74941,19.75025" stroke="#009AD3"/>
+  <text fill="#009ad3" stroke="null" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="113.888889" y="348.666667" id="svg_44" font-size="24" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">M</text>
+  <text fill="#009ad3" stroke="#009AD3" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="74.888889" y="395.666667" id="svg_45" font-size="24" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">E</text>
+  <path stroke-linecap="square" stroke-width="8" id="svg_46" d="m252.5,235.5l-17,24" stroke="#009AD3"/>
+  <circle r="14.5" cy="332.5" cx="230.5" fill="#009AD3" id="svg_47"/>
+  <path stroke-linecap="square" stroke-width="8" id="svg_48" d="m230.2504,288.24911l-0.74939,29.75025" stroke="#009AD3"/>
+  <circle r="14.5" cy="380.5" cx="191.5" fill="#009AD3" id="svg_49"/>
+  <path stroke-linecap="square" stroke-width="8" id="svg_50" d="m217.25051,352.24911l-17.74941,19.75025" stroke="#009AD3"/>
+  <circle r="14.5" cy="425.5" cx="150.5" fill="#009AD3" id="svg_51"/>
+  <path stroke-linecap="square" stroke-width="8" id="svg_52" d="m176.25051,397.24911l-17.74941,19.75025" stroke="#009AD3"/>
+  <text fill="#009ad3" stroke="null" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="217.888889" y="379.666667" id="svg_53" font-size="24" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">T</text>
+  <text fill="#009ad3" stroke="null" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="175.888889" y="422.666667" id="svg_54" font-size="24" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">E</text>
+  <text fill="#ffffff" stroke="null" stroke-width="0" stroke-opacity="null" x="82.888889" y="182.666667" id="svg_55" font-size="24" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">1</text>
+  <text fill="#ffffff" stroke="null" stroke-width="0" stroke-opacity="null" x="154.166667" y="180" id="svg_56" font-size="24" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">4</text>
+  <text fill="#ffffff" stroke="null" stroke-width="0" stroke-opacity="null" x="68.166667" y="427" id="svg_57" font-size="24" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">1</text>
+  <text fill="#ffffff" stroke="null" stroke-width="0" stroke-opacity="null" x="144.166667" y="434" id="svg_58" font-size="24" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">3</text>
+ </g>
+</svg>
