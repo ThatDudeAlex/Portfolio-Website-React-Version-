@@ -16,7 +16,7 @@ const ExperienceCard = ({
 
 
     return (
-        <Container fluid className="boot-container">
+        <Container >
             <Card>
                 <Row>
                     <Col md="3" lg="2">
