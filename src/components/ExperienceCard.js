@@ -10,13 +10,14 @@ const ExperienceCard = ({
     jobTitle,
     jobDesc,
     accomplishments,
-    date
+    date,
+    key
 
 }) => {
 
 
     return (
-        <Container >
+        <Container className="mb-5">
             <Card>
                 <Row>
                     <Col md="3" lg="2">
@@ -41,7 +42,7 @@ const ExperienceCard = ({
 
                 <Row>
                     <CardBody>
-                        <Col xs="12">
+                        <Col xs="12" className="jobDescList">
                             <p className="pt-3 pb-2 card-exp-intro">
                                 <em>
                                     {companyDesc}
@@ -62,7 +63,7 @@ const ExperienceCard = ({
                 </Row>
 
                 <Row className="pr-3">
-                    <Col xs={12} className="text-left ml-3">
+                    <Col xs={12} className="text-left ml-3 jobDescList">
                         <CardFooter>
                             <p className="pl-0 mb-0 text-muted">
                                 {date}

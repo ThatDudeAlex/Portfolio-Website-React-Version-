@@ -9,16 +9,14 @@ const About = () => {
                 sectionName="ABOUT"
              />
 
-            {/* <div className="container"> */}
-            <Container fluid className="boot-container">
-                {/* <div className="row text-left pt-4 pb-sm-3 pb-lg-5"> */}
-                <Row>
+            <Container>
+                <Row className="text-left pt-4 pb-sm-3 pb-lg-5">
                     <Col md="5">
                         <img src="/images/me.jpg"
                             className="fluid-img profile-img p-0 mb-3 mb-md-0" alt="photo of Alex Nunez" />
                     </Col>
 
-                    <Col md="7" id="introduction">
+                    <Col  md="7" className="introduction">
                         <p>
                             My name is <strong>Jose A Nunez</strong>, but I go by the name of <strong>“Alex”</strong>.
                             I’m a <strong>Computer Science</strong> student at the <strong>University of Central Florida</strong>,
@@ -43,34 +41,15 @@ const About = () => {
                             with a quote that I hold dear, and try to live by:
                         </p>
 
-                        <blockquote className="blockquote text-right">
+                        <blockquote className="blockquote text-right introduction">
                             <p className="mb-0">Vision Without Execution, Is Hallucination</p>
                             <footer className="blockquote-footer" id="quote-contributor">Thomas Edison</footer>
                         </blockquote>
 
                     </Col>
-
-                    {/* <div className="col-md-5 p-0">
-                        <img src="/images/me.jpg"
-                            className="img-fluid profile-img p-0 mb-3 mb-md-0" alt="photo of Alex Nunez" />
-                    </div> */}
-
-
-
-
-                    {/* 
-
-                        
-
-                        
-
-                        
-                    </div> */}
-                    {/* </div> */}
                 </Row>
             </Container>
         </div>
-        // </div>
     );
 }
 

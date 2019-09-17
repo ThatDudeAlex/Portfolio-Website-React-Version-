@@ -9,104 +9,127 @@ const Skills = () => {
     const languages = [
         {
             imgSource: `c_logo.svg`,
-            imgDesc: `C`
+            imgDesc: `C`,
+            lg: `3`
         },
         {
             imgSource: `java_logo.svg`,
-            imgDesc: `Java`
+            imgDesc: `Java`,
+            lg: `3`
         },
         {
             imgSource: `cobol_logo.svg`,
-            imgDesc: `COBOL`
+            imgDesc: `COBOL`,
+            lg: `3`
         },
         {
             imgSource: `mysql_logo.svg`,
-            imgDesc: `MySql`
+            imgDesc: `MySql`,
+            lg: `3`
         },
     ];
 
     const webTech = [
         {
             imgSource: `html5_logo.svg`,
-            imgDesc: `HTML`
+            imgDesc: `HTML`,
+            lg: `3`
         },
         {
             imgSource: `css_logo.svg`,
-            imgDesc: `CSS`
+            imgDesc: `CSS`,
+            lg: `3`
         },
         {
             imgSource: `javascript_logo.svg`,
-            imgDesc: `JavaScript`
+            imgDesc: `JavaScript`,
+            lg: `3`
         },
         {
             imgSource: `nodejs_logo.svg`,
-            imgDesc: `Node.js`
+            imgDesc: `Node.js`,
+            lg: `3`
         },
         {
             imgSource: `react_logo.svg`,
-            imgDesc: `React`
+            imgDesc: `React`,
+            lg: `3`
         },
         {
             imgSource: `expressjs_logo.svg`,
-            imgDesc: `Express.js`
+            imgDesc: `Express.js`,
+            lg: `3`
         },
         {
             imgSource: `bootstrap_logo.svg`,
-            imgDesc: `Bootstrap`
+            imgDesc: `Bootstrap`,
+            lg: `3`
         }
     ];
 
     const otherTech = [
         {
             imgSource: `data_structures_logo.svg`,
-            imgDesc: `Data Structures & Algorithms`
+            imgDesc: `Data Structures & Algorithms`,
+            lg: `3`
         },
         {
             imgSource: `git_logo.svg`,
-            imgDesc: `Git`
+            imgDesc: `Git`,
+            lg: `3`
         },
         {
             imgSource: `github_logo.svg`,
-            imgDesc: `Github`
+            imgDesc: `Github`,
+            lg: `3`
         },
         {
             imgSource: `heroku_logo.svg`,
-            imgDesc: `Heroku`
+            imgDesc: `Heroku`,
+            lg: `3`
         },
         {
             imgSource: `android_logo.svg`,
-            imgDesc: `Android Development`
+            imgDesc: `Android Development`,
+            lg: `3`
         },
         {
             imgSource: `npm_logo.svg`,
-            imgDesc: `Npm`
+            imgDesc: `Npm`,
+            lg: `3`
         },
         {
             imgSource: `math_logo.svg`,
-            imgDesc: `Mathematics`
+            imgDesc: `Mathematics`,
+            lg: `3`
         }
     ];
 
     const softSkills = [
         {
             imgSource: `leadership_logo.svg`,
-            imgDesc: `Leadership`
+            imgDesc: `Leadership`,
+            lg: `2`
         },
         {
             imgSource: `thinking_logo.svg`,
-            imgDesc: `Critical Thinkinig`
+            imgDesc: `Critical Thinkinig`,
+            lg: `2`
         },
         {
             imgSource: `dedication_logo.svg`,
-            imgDesc: `Hard Work & Dedication`
+            imgDesc: `Hard Work & Dedication`,
+            lg: `2`
         },
         {
             imgSource: `teamwork_logo.svg`,
-            imgDesc: `Team Work`
+            imgDesc: `Team Work`,
+            lg: `2`
         },
         {
             imgSource: `positive_logo.svg`,
-            imgDesc: `Confidence & Positive Attitude`
+            imgDesc: `Confidence & Positive Attitude`,
+            lg: `2`
         }
     ];
 
