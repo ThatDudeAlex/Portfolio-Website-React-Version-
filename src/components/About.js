@@ -7,6 +7,7 @@ const About = () => {
         <div>
             <SectionHeading
                 sectionName="ABOUT"
+                headingColor = "black"
              />
 
             <Container>

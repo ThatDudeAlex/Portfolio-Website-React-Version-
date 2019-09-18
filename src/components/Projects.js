@@ -7,6 +7,7 @@ const Projects = () => {
     return (
         <SectionHeading
             sectionName="PROJECTS"
+            headingColor = "black"
         />
     );
 }

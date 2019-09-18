@@ -37,6 +37,7 @@ const Experience = () => {
         <Fragment>
             <SectionHeading
                 sectionName="Experience"
+                headingColor = "black"
             />
             <ExperienceCard 
                 companyLogo="/images/experience/FIS_Logo.svg"
@@ -47,6 +48,11 @@ const Experience = () => {
                 companyDesc= {`A fortune 500 company, and an international provider of financial service
                              technology, and outsourcing services`}
                 jobDesc = {fisJobDec}
+                companyLg = "6"
+                jobRoleLg = "4"
+                companyMd = "3"
+                jobRoleMd = "6"
+                id = "fisLogo"
                 accomplishments = {fisAccomplishments}
                 date = {`Jun 2019 - Aug 2019 | Orlando, Fl`}
             />
@@ -58,6 +64,11 @@ const Experience = () => {
                 jobTitle="Math Tutor"
                 companyDesc= {`A public state college, located in Orlando, Florida`}
                 jobDesc = {valenciaJobDec}
+                companyLg = "6"
+                jobRoleLg = "4"
+                companyMd = "5"
+                jobRoleMd = "4"
+                id = "valLogo"
                 accomplishments = {valenciaAccomplishments}
                 date = {`Jan 2017 - Present | Orlando, Fl`}
             />

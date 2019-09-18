@@ -138,6 +138,7 @@ const Skills = () => {
         <Fragment>
             <SectionHeading
                 sectionName="SKILLS"
+                headingColor = "black"
             />
             <SkillCard
                 cardTitle="Languages & Databases"

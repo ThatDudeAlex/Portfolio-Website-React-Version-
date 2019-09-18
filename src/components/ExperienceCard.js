@@ -11,8 +11,11 @@ const ExperienceCard = ({
     jobDesc,
     accomplishments,
     date,
-    key
-
+    companyMd,
+    jobRoleMd,
+    companyLg,
+    jobRoleLg,
+    id
 }) => {
 
 
@@ -22,12 +25,12 @@ const ExperienceCard = ({
                 <Row>
                     <Col md="3" lg="2">
 
-                        <img src={companyLogo}
-                            className="fluid-img p-0 mb-3 mb-md-0" alt={altLogo} />
+                        <img src={companyLogo} id={id}
+                            className="fluid-img p-0 mb-3 mb-md-0 pt-3 pl-2" alt={altLogo} />
                     </Col>
 
-                    <Col md="3" lg="6">
-                        <div className="company-name-format pt-5 pt-md-3">
+                    <Col md={companyMd} lg={companyLg}>
+                        <div className="company-name-format pt-4 pt-md-5 pl-lg-4">
                             <span>
                                 <a href={companyUrl} target="_blank" className="company-name"> {companyName}
                                 </a>
@@ -35,8 +38,10 @@ const ExperienceCard = ({
                         </div>
                     </Col>
 
-                    <Col md="6" lg="4">
-                        <p className="job-role pt-1 mt-md-3">{jobTitle}</p>
+                    <Col md={jobRoleMd} lg={jobRoleLg}>
+                        <span className="job-role-format">
+                            <p className="job-role mt-md-5 mb-0">{jobTitle}</p>
+                        </span>
                     </Col>
                 </Row>
 
