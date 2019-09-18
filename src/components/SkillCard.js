@@ -1,5 +1,5 @@
-import React, { Fragment } from 'react';
-import { Container, Row, Col, Card, CardBody, CardFooter } from 'reactstrap';
+import React from 'react';
+import { Container, Row, Col, Card, CardBody} from 'reactstrap';
 
 const SkillCard = ({ cardTitle, images }) => {
     return (

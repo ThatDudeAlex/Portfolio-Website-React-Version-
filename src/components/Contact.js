@@ -6,7 +6,7 @@ import PageFooter from './PageFooter';
 const Contact = () => {
     return (
         <Fragment>
-            <img className="img-fluid pt-2 pb-0" src="/images/icons/contact-border.svg" style={{ width: "100%" }} />
+            <img className="img-fluid pt-3 pb-0" src="/images/icons/contact-border.svg" style={{ width: "100%" }} />
             <div id="footerSection" className="pt-5" style={{ background: "black" }}>
                 <SectionHeading
                     sectionName="CONTACT"
@@ -23,7 +23,7 @@ const Contact = () => {
                                     <img className="img-fluid contact-icons" src="/images/icons/linkedin-white.svg"
                                         alt="Card image cap" /></a>
 
-                                <a className="nav-link mr-5 mb-4" href="mailto: alex@alexjnunez.com">
+                                <a className="nav-link mr-5 mb-4" href="mailto: josenunez1692@gmail.com">
                                     <img className="img-fluid contact-icons" src="/images/icons/mail_icon.svg"
                                         alt="Card image cap" /></a>
                             </nav>

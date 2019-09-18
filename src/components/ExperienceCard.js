@@ -15,7 +15,7 @@ const ExperienceCard = ({
     jobRoleMd,
     companyLg,
     jobRoleLg,
-    id
+    id,
 }) => {
 
 
@@ -24,9 +24,10 @@ const ExperienceCard = ({
             <Card>
                 <Row>
                     <Col md="3" lg="2">
-
-                        <img src={companyLogo} id={id}
-                            className="fluid-img p-0 mb-3 mb-md-0 pt-3 pl-2" alt={altLogo} />
+                        <a href={companyUrl} target="_blank">
+                            <img src={companyLogo} id={id}
+                                className="fluid-img p-0 mb-3 mb-md-0 pt-3 pl-md-2" alt={altLogo} />
+                        </a>
                     </Col>
 
                     <Col md={companyMd} lg={companyLg}>

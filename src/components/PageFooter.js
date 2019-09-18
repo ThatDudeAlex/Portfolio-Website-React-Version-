@@ -1,6 +1,4 @@
 import React, { Fragment } from 'react';
-import { Container, Row, Col } from 'reactstrap';
-import SectionHeading from "./SectionHeading";
 
 const PageFooter = () => {
     return (
