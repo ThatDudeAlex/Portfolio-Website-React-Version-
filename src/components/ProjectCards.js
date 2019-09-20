@@ -11,12 +11,27 @@ const ProjectCards = ({ allProjects }) => {
                     <Col lg="4" className="text-left mt-3 mb-3" key={prj.id}>
                         <div className=" projectCards">
                             <img src={prj.image} className="prjImage mb-3" />
-                            <a href={prj.url} target="_blank">
-                                <strong className="prjName mr-2">{prj.name}</strong>
-                                <span className="prjUrl">{prj.git}</span>
-                            </a>
-                            <p className="mt-2">{prj.description}</p>
-                            <p>{prj.tech}}</p>
+
+                            <div className="p-1">
+                                <a href={prj.url} target="_blank">
+                                    <strong className="prjName mr-2">{prj.name}</strong>
+                                    <span className="prjUrl">{prj.git}</span>
+                                </a>
+
+
+                                <p className="mt-2">{prj.description}</p>
+
+                                <Row>
+                                    <Col xs="12" lg="3" className="pr-0">
+                                        <strong>Tech Used: </strong>
+                                    </Col>
+
+                                    <Col xs="12" lg="9" className="pl-lg-0">
+                                        <span className="techDesc">{prj.tech}</span>
+                                    </Col>
+                                </Row>
+
+                            </div>
                         </div>
                     </Col>
                 ))}

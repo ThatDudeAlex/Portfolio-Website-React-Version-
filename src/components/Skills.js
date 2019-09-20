@@ -4,7 +4,7 @@ import SkillCard from "./SkillCard";
 import SectionHeading from "./SectionHeading";
 
 
-const Skills = () => {
+const Skills = ({id}) => {
 
     const languages = [
         {
@@ -135,7 +135,7 @@ const Skills = () => {
 
 
     return (
-        <Fragment>
+        <div id={id}>
             <SectionHeading
                 sectionName="SKILLS"
                 headingColor = "black"
@@ -156,7 +156,7 @@ const Skills = () => {
                 cardTitle="Soft Skills"
                 images={softSkills}
             />
-        </Fragment>
+        </div>
 
     );
 }

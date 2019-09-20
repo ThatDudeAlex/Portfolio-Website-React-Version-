@@ -5,7 +5,7 @@ import Experience from './Experience';
 import Projects from './Projects';
 import Skills from './Skills';
 import Contact from './Contact';
-import Text from './Text';
+import Navigation from './Navigation';
 // import 'bootstrap/dist/css/bootstrap.min.css';
 
 const App = () => {
@@ -14,12 +14,12 @@ const App = () => {
     <Fragment>
       <div className="page_background_image pt-5">
         {/* <Navbar /> */}
-        <Text />
-        <About />
-        <Experience />
-        <Projects />
-        <Skills />
-        <Contact />
+        <Navigation />
+        <About id="aboutComponent"/>
+        <Experience id="expComponent"/>
+        <Projects id="projectComponent"/>
+        <Skills id="skillsComponent"/>
+        <Contact id="contactComponent" />
       </div>
     </Fragment>
   );

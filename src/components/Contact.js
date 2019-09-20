@@ -3,11 +3,11 @@ import { Container, Row, Col } from 'reactstrap';
 import SectionHeading from "./SectionHeading";
 import PageFooter from './PageFooter';
 
-const Contact = () => {
+const Contact = ({id}) => {
     return (
-        <Fragment>
+        <div>
             <img className="img-fluid pt-3 pb-0" src="/images/icons/contact-border.svg" style={{ width: "100%" }} />
-            <div id="footerSection" className="pt-5" style={{ background: "black" }}>
+            <div id={id} className="pt-5" style={{ background: "black" }}>
                 <SectionHeading
                     sectionName="CONTACT"
                     headingColor = "white"
@@ -32,7 +32,7 @@ const Contact = () => {
                 </Container>
                 <PageFooter />
             </div>
-        </Fragment>
+        </div>
     );
 }
 

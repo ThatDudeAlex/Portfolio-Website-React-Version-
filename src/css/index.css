@@ -22,6 +22,10 @@ code {
   box-shadow: 0 0 5px grey;
 } 
 
+.techDesc{
+  font-size: .9rem;
+}
+
 .prjImage{
   width: 100%;
   height: 198px;
@@ -268,7 +272,7 @@ html{
   color: #E31B6D !important;
 }
 
-.navbar-nav .nav-link {
+.navbar-nav .nav-link, .test1 {
   color: white !important;
 }
 
@@ -341,11 +345,11 @@ html{
     width: 60px;
   }
 
-  #footerSection h5{
+  #contactComponent h5{
     font-size: 1.7rem;
   }
 
-  #footerSection p{
+  #contactComponent p{
     font-size: 1.6rem;
   }
 }
@@ -454,11 +458,11 @@ html{
     width: 80px;
   }
 
-  #footerSection h5{
+  #contactComponent h5{
     font-size: 2rem;
   }
 
-  #footerSection p{
+  #contactComponent p{
     font-size: 1.8rem;
   }
 }

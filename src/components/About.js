@@ -2,9 +2,9 @@ import React from "react";
 import { Container, Row, Col } from 'reactstrap';
 import SectionHeading from "./SectionHeading";
 
-const About = () => {
+const About = ({id}) => {
     return (
-        <div>
+        <div id={id}>
             <SectionHeading
                 sectionName="ABOUT"
                 headingColor = "black"
