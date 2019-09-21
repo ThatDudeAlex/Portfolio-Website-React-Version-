@@ -4,7 +4,7 @@ import SectionHeading from "./SectionHeading";
 import ProjectCards from "./ProjectCards";
 
 
-const Projects = ({id}) => {
+const Projects = ({ id }) => {
 
     const allProjects = [
         {
@@ -14,7 +14,8 @@ const Projects = ({id}) => {
             tech: "HTML, CSS, Bootstrap, JavaScript, Node.js, Express, MySQL, Heroku",
             image: "/images/projects/contact-manager.png",
             git: "github.com/mrkjdy/SmallProject",
-            url: "https://github.com/mrkjdy/SmallProject"
+            url: "https://github.com/mrkjdy/SmallProject",
+            id: 1
         },
 
         {
@@ -24,7 +25,8 @@ const Projects = ({id}) => {
             image: "/images/projects/sherlock.png",
             tech: "React, Redux, Node.js, Express, MongoDB, React-Bootstrap",
             url: "https://github.com/BrendonLyra/Sherlock",
-            git: "github.com/BrendonLyra/Sherlock"
+            git: "github.com/BrendonLyra/Sherlock",
+            id:2
         },
 
         {
@@ -34,7 +36,8 @@ const Projects = ({id}) => {
             tech: "HTML, CSS, Bootstrap, JavaScript, Node.js, Express, MySQL, Heroku, Android Studios",
             image: "/images/projects/step-with-friends.png",
             url: "https://github.com/mrkjdy/large-project",
-            git: "github.com/mrkjdy/large-project"
+            git: "github.com/mrkjdy/large-project",
+            id: 3
         },
 
         {
@@ -44,7 +47,8 @@ const Projects = ({id}) => {
             image: "/images/projects/cannyFinal.png",
             tech: "C, 256x256 PGM images",
             url: "",
-            git: ""
+            git: "",
+            id: 4
         },
 
         {
@@ -54,7 +58,8 @@ const Projects = ({id}) => {
             image: "/images/projects/Weather_prj.svg",
             tech: "Android Studio, Dark Sky API",
             url: "https://small-project-cop4331.herokuapp.com/",
-            git: "github.com/mrkjdy/SmallProject"
+            git: "github.com/mrkjdy/SmallProject",
+            id: 5
         },
 
         {
@@ -64,7 +69,8 @@ const Projects = ({id}) => {
             image: "/images/projects/tries_prj.svg",
             tech: "C, Trie data structure",
             url: "",
-            git: ""
+            git: "",
+            id: 6
         }
     ];
 
@@ -74,9 +80,26 @@ const Projects = ({id}) => {
                 sectionName="PROJECTS"
                 headingColor="black"
             />
-            <ProjectCards
-                allProjects={allProjects}
-            />
+
+            <Container className=" text-left pt-4">
+                <Row>
+                    {/* <ProjectCards
+                        allProjects={allProjects}
+                    /> */}
+                    {allProjects.map(prj => (
+                        <ProjectCards 
+                            name = {prj.name}
+                            description = {prj.description}
+                            image = {prj.image}
+                            tech = {prj.tech}
+                            url = {prj.url}
+                            git = {prj.git}
+                            key = {prj.name}
+                        />
+                    ))}
+                </Row>
+            </Container>
+
         </div>
     );
 }

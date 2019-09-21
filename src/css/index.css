@@ -20,6 +20,7 @@ code {
   background-color: white;
   font-size: 1rem;
   box-shadow: 0 0 5px grey;
+  height: 100%;
 } 
 
 .techDesc{
@@ -182,6 +183,8 @@ li {
   background-color: #2c3641 !important;
 }
 
+
+
 .nav .nav-link:hover{
   background-color: #5cb5ea !important;
 }
@@ -267,18 +270,7 @@ html{
   color: #50585a;
 }
 
-/* Navigation bar styles */
-.navbar-brand:hover{
-  color: #E31B6D !important;
-}
 
-.navbar-nav .nav-link, .test1 {
-  color: white !important;
-}
-
-.navbar-nav .nav-link:hover {
-  color: #E31B6D !important;
-}
 
 /* card styles */
 .card{
@@ -335,6 +327,10 @@ html{
 
   .company-name-format{
     padding-top: 3rem;
+  }
+
+  .projectCards{
+    /* height: 402px; */
   }
 
 }
@@ -470,3 +466,4 @@ html{
 .navbar-toggler{
   background: white;
 }
+

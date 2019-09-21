@@ -3,34 +3,37 @@ import { Container, Row, Col } from 'reactstrap';
 import SectionHeading from "./SectionHeading";
 import PageFooter from './PageFooter';
 
-const Contact = ({id}) => {
+const Contact = ({ id }) => {
     return (
         <div>
-            <img className="img-fluid pt-3 pb-0" src="/images/icons/contact-border.svg" style={{ width: "100%" }} />
-            <div id={id} className="pt-5" style={{ background: "black" }}>
-                <SectionHeading
-                    sectionName="CONTACT"
-                    headingColor = "white"
-                />
-                <h5 className="mt-4 mb-5 text-blue text-center"> Have a questions or want to connect?</h5>
+            <div id={id} className="pt-5" >
+                <img className="img-fluid pt-3 pb-0" src="/images/icons/contact-border.svg" style={{ width: "100%" }} />
 
-                <Container>
-                    <Row>
-                        <Col>
-                            <nav className="nav justify-content-center">
-                                <a className="nav-link mr-5 ml-5 mb-4" href="http://www.linkedin.com/in/alex-nunez-76545617b"
-                                    target="_blank">
-                                    <img className="img-fluid contact-icons" src="/images/icons/linkedin-white.svg"
-                                        alt="Card image cap" /></a>
+                <div style={{ background: "black" }}>
+                    <SectionHeading
+                        sectionName="CONTACT"
+                        headingColor="white"
+                    />
+                    <h5 className="mt-4 mb-5 text-blue text-center"> Have a questions or want to connect?</h5>
 
-                                <a className="nav-link mr-5 mb-4" href="mailto: josenunez1692@gmail.com">
-                                    <img className="img-fluid contact-icons" src="/images/icons/mail_icon.svg"
-                                        alt="Card image cap" /></a>
-                            </nav>
-                        </Col>
-                    </Row>
-                </Container>
-                <PageFooter />
+                    <Container>
+                        <Row>
+                            <Col>
+                                <nav className="nav justify-content-center">
+                                    <a className="nav-link mr-5 ml-5 mb-4" href="http://www.linkedin.com/in/alex-nunez-76545617b"
+                                        target="_blank">
+                                        <img className="img-fluid contact-icons" src="/images/icons/linkedin-white.svg"
+                                            alt="Card image cap" /></a>
+
+                                    <a className="nav-link mr-5 mb-4" href="mailto: josenunez1692@gmail.com">
+                                        <img className="img-fluid contact-icons" src="/images/icons/mail_icon.svg"
+                                            alt="Card image cap" /></a>
+                                </nav>
+                            </Col>
+                        </Row>
+                    </Container>
+                    <PageFooter />
+                </div>
             </div>
         </div>
     );
