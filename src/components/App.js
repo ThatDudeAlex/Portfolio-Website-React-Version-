@@ -5,9 +5,8 @@ import {
 } from "react-router-dom";
 import Portfolio from '../pages/Portfolio';
 import Bio from '../pages/Bio';
-import Navigation from '../components/Navigation';
-import Test from "./Test";
 import '../css/index.css';
+import Navbar from './Navbar';
 
 
 // Main landing page for my portfolio site 
@@ -15,7 +14,7 @@ const App = () => (
 
   <BrowserRouter>
     <div>
-      <Test />
+      <Navbar />
       <Route exact path="/" component={Portfolio} />
       <Route path="/bio" component={Bio} />
     </div>
