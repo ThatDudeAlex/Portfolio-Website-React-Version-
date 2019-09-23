@@ -1,5 +1,7 @@
 import React from 'react';
 import { Container, Row, Col, Card, CardBody} from 'reactstrap';
+import "../css/cards.css";
+import "../css/skills.css";
 
 const SkillCard = ({ cardTitle, images }) => {
     return (

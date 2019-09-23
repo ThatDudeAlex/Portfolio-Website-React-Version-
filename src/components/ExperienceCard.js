@@ -1,5 +1,7 @@
 import React from "react";
 import { Container, Row, Col, Card, CardBody, CardFooter } from 'reactstrap';
+import "../css/experience.css"
+import "../css/cards.css"
 
 const ExperienceCard = ({
     companyLogo,
@@ -20,11 +22,11 @@ const ExperienceCard = ({
 
 
     return (
-        <Container className="mb-5">
+        <Container className="mb-5" id={`${companyName}-exp`}>
             <Card>
                 <Row>
                     <Col md="3" lg="2">
-                        <a href={companyUrl} target="_blank">
+                        <a href={companyUrl} target="_blank" rel="noopener noreferrer">
                             <img src={companyLogo} id={id}
                                 className="fluid-img p-0 mb-3 mb-md-0 pt-3 pl-md-2" alt={altLogo} />
                         </a>
@@ -33,7 +35,7 @@ const ExperienceCard = ({
                     <Col md={companyMd} lg={companyLg}>
                         <div className="company-name-format pt-4 pt-md-5 pl-lg-4">
                             <span>
-                                <a href={companyUrl} target="_blank" className="company-name"> {companyName}
+                                <a href={companyUrl} target="_blank" className="company-name" rel="noopener noreferrer"> {companyName}
                                 </a>
                             </span>
                         </div>
@@ -49,7 +51,7 @@ const ExperienceCard = ({
                 <Row>
                     <CardBody>
                         <Col xs="12" className="jobDescList">
-                            <p className="pt-3 pb-2 card-exp-intro">
+                            <p className="pt-3 pb-2 exp-intro">
                                 <em>
                                     {companyDesc}
                                 </em>

@@ -1,20 +1,21 @@
 import React from "react";
 import { Container, Row, Col } from 'reactstrap';
 import SectionHeading from "./SectionHeading";
+import '../css/about.css';
 
 const About = ({id}) => {
     return (
-        <div id={id}>
+        <div id={id} className="pt-xs-5 mt-xs-5 mt-md-0 pt-md-0">
             <SectionHeading
                 sectionName="ABOUT"
                 headingColor = "black"
              />
 
             <Container>
-                <Row className="text-left pt-4 pb-sm-3 pb-lg-5">
+                <Row className="text-left pt-5 pb-sm-3 pb-lg-5">
                     <Col md="5">
                         <img src="/images/me.jpg"
-                            className="fluid-img profile-img p-0 mb-3 mb-md-0" alt="photo of Alex Nunez" />
+                            className="fluid-img profile-img p-0 mb-3 mb-md-0" alt="Alex Nunez" />
                     </Col>
 
                     <Col  md="7" className="introduction">

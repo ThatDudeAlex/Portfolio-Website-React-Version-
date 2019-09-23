@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import SectionHeading from "./SectionHeading";
 import ExperienceCard from "./ExperienceCard";
 
@@ -44,6 +44,7 @@ const Experience = ({ id }) => {
                 sectionName="Experience"
                 headingColor="black"
             />
+
             <ExperienceCard
                 companyLogo="/images/experience/FIS_Logo.svg"
                 altLogo="FIS logo"

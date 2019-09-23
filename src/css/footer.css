@@ -1,0 +1,11 @@
+@media (min-width: 1201px){  
+    #contactComponent p{
+      font-size: 1.6rem !important;
+    }
+}
+
+@media (min-width: 1800px){
+    #contactComponent p{
+        font-size: 1.8rem !important;
+    }
+}

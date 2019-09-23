@@ -1,0 +1,91 @@
+.fluid-img{
+    width: 100%;
+    height: 100%;
+}
+
+.company-name-format{
+    font-size: 1.8rem;
+    margin-bottom: 0; 
+  }
+  
+  .company-name{
+    border-bottom: 3px hidden black;
+    color: #1769A5;
+    transition: border-bottom 0.4s ease
+  }
+  
+  .company-name:hover{
+    border-bottom: 3px solid; 
+  }
+  
+  .job-role{
+    font-size: 1.5rem;
+    margin-bottom: 0; 
+    color: #8C712F;
+  }
+
+  .exp-intro{
+    border-top: 1px solid lightgray;
+  }
+
+  @media (min-width: 1200px){
+    .jobDescList{
+      font-size: 1.2rem;
+    }
+  
+    .jobDescList h5{
+      font-size: 1.3rem;
+    }
+
+    .company-name{
+      margin-left: 8rem;
+    }
+  
+    .job-role-formate, .job-role {
+      margin-top: 5rem;
+    }
+  
+    .company-name, .job-role {
+      font-size: 1.9rem;
+    }
+  
+    .company-name-format{
+      padding-top: 3rem;
+    }
+  }
+
+@media (min-width: 1200px){
+  .jobDescList{
+    font-size: 1.4rem;
+  }
+
+  .jobDescList h5{
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 1400px){
+  .company-name, .job-role {
+    font-size: 2.2rem;
+  }
+}
+
+@media (min-width: 1600px){
+  .company-name, .job-role {
+    font-size: 2.4rem;
+  }
+}
+
+@media (min-width: 1800px){
+  .jobDescList{
+    font-size: 1.6rem;
+  }
+
+  .jobDescList h5{
+    font-size: 1.8rem;
+  }
+
+  .company-name, .job-role {
+    font-size: 2.6rem;
+  }
+}

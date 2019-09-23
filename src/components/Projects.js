@@ -1,5 +1,5 @@
-import React, { Fragment } from "react";
-import { Container, Row, Col } from 'reactstrap';
+import React from "react";
+import { Container, Row } from 'reactstrap';
 import SectionHeading from "./SectionHeading";
 import ProjectCards from "./ProjectCards";
 
@@ -83,9 +83,6 @@ const Projects = ({ id }) => {
 
             <Container className=" text-left pt-4">
                 <Row>
-                    {/* <ProjectCards
-                        allProjects={allProjects}
-                    /> */}
                     {allProjects.map(prj => (
                         <ProjectCards 
                             name = {prj.name}

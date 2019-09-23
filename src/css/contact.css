@@ -1,0 +1,38 @@
+.contact-icons{
+    height: 60px;
+    width:  50px;
+}
+
+.contact-link{
+    background-color: #2c3641 !important;
+}
+  
+.contact-link:hover{
+    background-color: #5cb5ea !important;
+}
+
+@media (min-width: 1201px){
+    .contact-icons{
+      height: 70px;
+      width: 60px;
+    }
+  
+    #contactComponent h5{
+      font-size: 1.7rem;
+    }
+}
+
+@media (min-width: 1800px){
+    .contact-icons{
+        height: 90px;
+        width: 80px;
+    }
+    
+    #contactComponent h5{
+        font-size: 2rem;
+    }
+    
+    .phrase{
+        font-size: 1.6rem !important;
+    }
+}

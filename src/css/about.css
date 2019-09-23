@@ -1,0 +1,41 @@
+#introduction{
+    font-size: 1.3rem;
+    line-height: 1.6;
+}
+
+.profile-img{
+    border-radius:7%;
+    border: 4px solid black; 
+  }
+  
+#quote-contributor{
+    color: #1769A5
+}
+
+@media (min-width: 1200px){
+    .introduction{
+        font-size: 1.3rem;
+    }
+}
+
+@media (min-width: 1400px){
+    .introduction{
+        font-size: 1.6rem;
+    }
+
+    .profile-img{
+        border: 5px black solid;
+    }
+
+    .contact-icons{
+        height: 80px;
+        width: 70px;
+      }
+}
+
+@media (min-width: 1800px){
+    .introduction{
+        font-size: 2rem;
+    }
+    
+}

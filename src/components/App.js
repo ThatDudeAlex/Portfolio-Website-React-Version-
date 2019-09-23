@@ -1,28 +1,26 @@
-import React, { Fragment } from 'react';
-import Navbar from "./Navbar";
-import About from "./About";
-import Experience from './Experience';
-import Projects from './Projects';
-import Skills from './Skills';
-import Contact from './Contact';
-import Navigation from './Navigation';
-// import 'bootstrap/dist/css/bootstrap.min.css';
+import React from 'react';
+import {
+  BrowserRouter,
+  Route
+} from "react-router-dom";
+import Portfolio from '../pages/Portfolio';
+import Bio from '../pages/Bio';
+import Navigation from '../components/Navigation';
+import Test from "./Test";
+import '../css/index.css';
 
-const App = () => {
 
-  return (
-    <Fragment>
-      <div className="page_background_image pt-5">
-        {/* <Navbar /> */}
-        <Navigation />
-        <About id="aboutComponent"/>
-        <Experience id="expComponent"/>
-        <Projects id="projectComponent"/>
-        <Skills id="skillsComponent"/>
-        <Contact id="contactComponent" />
-      </div>
-    </Fragment>
-  );
-}
+// Main landing page for my portfolio site 
+const App = () => (
+
+  <BrowserRouter>
+    <div>
+      <Test />
+      <Route exact path="/" component={Portfolio} />
+      <Route path="/bio" component={Bio} />
+    </div>
+  </BrowserRouter>
+
+);
 
 export default App;

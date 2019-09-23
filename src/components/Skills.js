@@ -1,5 +1,4 @@
-import React, { Fragment } from 'react';
-import { Container, Row, Col } from 'reactstrap';
+import React from 'react';
 import SkillCard from "./SkillCard";
 import SectionHeading from "./SectionHeading";
 
@@ -135,7 +134,7 @@ const Skills = ({id}) => {
 
 
     return (
-        <div id={id}>
+        <div id={id} className="pt-3">
             <SectionHeading
                 sectionName="SKILLS"
                 headingColor = "black"

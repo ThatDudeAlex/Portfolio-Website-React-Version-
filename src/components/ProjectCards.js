@@ -1,5 +1,6 @@
 import React from "react";
-import { Container, Row, Col } from 'reactstrap';
+import { Row, Col } from 'reactstrap';
+import "../css/project.css"
 
 const ProjectCards = ({ name, description, image, tech, url, git }) => {
     return (
@@ -8,16 +9,16 @@ const ProjectCards = ({ name, description, image, tech, url, git }) => {
         <Col lg="6" xl="4" className="text-left mt-3 mb-3 p-3">
             <div className="projectCards">
 
-                <img src={image} className="prjImage mb-3" />
+                <img src={image} className="prjImage mb-3" alt="" />
 
                 <div className="p-2">
-                    <a href={url} target="_blank">
+                    <a href={url} target="_blank" rel="noopener noreferrer">
                         <strong className="prjName mr-2">{name}</strong>
                         <span className="prjUrl">{git}</span>
                     </a>
 
 
-                    <p className="mt-2">{description}</p>
+                    <p className="mt-2 prjDesc">{description}</p>
 
                     <Row>
                         <Col xs="12" md="2" lg="3" xl="4" className="pr-0">

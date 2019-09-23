@@ -1,0 +1,35 @@
+.skill-name{
+    font-size: 2rem;
+    margin-bottom: 0; 
+    color: #8C712F;
+    border-bottom: 2px solid lightgray;
+  }
+  
+  .skill-img{
+    height: 150px !important;
+    /* width: auto; */
+  }
+
+  #skillsComponent{
+    padding-bottom: 305px;
+  }
+
+@media (min-width: 1200px){
+  .skill{
+    font-size: 1.3rem;
+  }
+}
+
+@media (min-width: 1400px){
+  .skill{
+    font-size: 1.6rem;
+  }
+
+  .skill-name{
+    font-size: 3rem;
+  }
+
+  /* .skill-img{
+    height: 200px !important;
+  } */
+}
