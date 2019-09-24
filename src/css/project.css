@@ -34,7 +34,7 @@
   }
   
   .prjName:hover, .prjUrl:hover {
-    color: rgb(161, 20, 79);
+    color: rgb(161, 20, 79) !important;
   }
   
   .projectCards:hover{

@@ -1,16 +1,50 @@
 import React, { Component } from 'react';
-import '../css/navbar.css';
 import { Link } from "react-scroll";
-
+import { NavLink , withRouter} from "react-router-dom";
+import '../css/navbar.css';
 
 class Navbar extends Component {
     constructor(props) {
         super(props)
-        this.myRef = React.createRef();
+        this.navRef = React.createRef();
+        this.groupRef = React.createRef();
+        this.returnRef = React.createRef();
+    }
+
+    componentDidMount = () => {
+        const nav =  this.navRef.current;
+        const group = this.groupRef.current;
+        const returnLink = this.returnRef.current;
+
+        nav.className = "nav-items";
+        group.className = "group-1";
+
+        if(this.props.location.pathname === "/bio"){
+            group.style.display = "none";
+            returnLink.style.display = "inline-block";
+        }
+        
+        window.addEventListener("resize", this.handleResize);
+    }
+
+
+    componentDidUpdate(){
+        const nav =  this.navRef.current;
+        const group = this.groupRef.current;
+        const returnLink = this.returnRef.current;
+
+        if(this.props.location.pathname === "/bio"){
+            group.style.display = "none";
+            returnLink.style.display = "inline-block";
+        }
+        else{
+            group.style.display = "flex";
+            returnLink.style.display = "none";
+        }
     }
 
     handleClick = () => {
-        const nav = this.myRef.current
+        const nav = this.navRef.current;
 
         if (nav.className === "nav-items") {
             nav.className += " responsive";
@@ -20,16 +54,11 @@ class Navbar extends Component {
     }
 
     handleResize = () => {
-        const nav = this.myRef.current;
+        const nav = this.navRef.current;
 
         if (window.innerWidth >= 768) {
             nav.className = "nav-items";
         }
-    }
-
-    componentDidMount = () => {
-        this.myRef.current.className = "nav-items";
-        window.addEventListener("resize", this.handleResize);
     }
 
     render() {
@@ -37,9 +66,18 @@ class Navbar extends Component {
             <nav id="navbar" className="collapsible-menu" >
                 <div className="nav-content" >
                     <i className="fa fa-bars toggle" onClick={this.handleClick}></i>
-                    <ul className="nav-items" ref={this.myRef}>
+                    <ul className="nav-items" ref={this.navRef}>
 
-                        <span className="group-1">
+                        <li>
+                            <NavLink
+                                exact to="/"
+                                className="nav-menu-link ml-5"
+                            >
+                                <span id ="return-link" onClick={this.handleClick} ref={this.returnRef} style={{display:"none"}}>Previous Page</span>
+                            </NavLink>
+                        </li>
+
+                        <span className="group-1" ref={this.groupRef}>
                             <li>
                                 <Link
                                     activeClass="active"
@@ -111,38 +149,33 @@ class Navbar extends Component {
                             </li>
                         </span>
 
-                        <span className="group-2">
+                        <span className="group-2" onClick={this.handleClick}>
                             <li>
-                                <Link
-                                    activeClass="active"
-                                    to=""
-                                    spy={true}
+                                <NavLink
+                                    to="/bio"
                                     className="nav-menu-link"
                                 >
-                                    <span onClick={this.handleClick}>Bio</span>
-                                </Link>
+                                    <span className="bio-link" >Bio</span>
+                                </NavLink>
                             </li>
 
                             <li>
-                                <Link
-                                    activeClass="active"
+                                <NavLink
                                     to=""
-                                    spy={true}
                                     className="nav-menu-link"
                                 >
                                     <span onClick={this.handleClick}>Blog (Soon)</span>
-                                </Link>
+                                </NavLink>
                             </li>
 
                             <li>
-                                <Link
-                                    activeClass="active"
+                                <NavLink
                                     to=""
-                                    spy={true}
                                     className="nav-menu-link"
+                                    onClick={this.handleClick}
                                 >
-                                    <span onClick={this.handleClick}>Resume</span>
-                                </Link>
+                                    <span>Resume</span>
+                                </NavLink>
                             </li>
                         </span>
                     </ul>
@@ -152,4 +185,4 @@ class Navbar extends Component {
     }
 }
 
-export default Navbar;
+export default withRouter(Navbar);

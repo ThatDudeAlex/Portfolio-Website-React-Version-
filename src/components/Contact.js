@@ -20,7 +20,7 @@ const Contact = ({ id }) => {
 
                 <h5 className="mt-4 mb-5 text-blue text-center"> Have a questions or want to connect?</h5>
 
-                <Container>
+                <Container style={{paddingBottom: "80px"}}>
                     <Row>
                         <Col>
                             <nav className="nav justify-content-center">

@@ -58,7 +58,7 @@ const Projects = ({ id }) => {
             image: "/images/projects/Weather_prj.svg",
             tech: "Android Studio, Dark Sky API",
             url: "https://small-project-cop4331.herokuapp.com/",
-            git: "github.com/mrkjdy/SmallProject",
+            git: "",
             id: 5
         },
 

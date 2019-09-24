@@ -10,12 +10,13 @@
   
   .company-name{
     border-bottom: 3px hidden black;
-    color: #1769A5;
+    color: #1769A5 !important;
     transition: border-bottom 0.4s ease
   }
   
   .company-name:hover{
     border-bottom: 3px solid; 
+    color: #1769A5 !important;
   }
   
   .job-role{
