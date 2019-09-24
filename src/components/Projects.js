@@ -12,7 +12,7 @@ const Projects = ({ id }) => {
             description: `A web application for contact management, gives each user the ability to add, delete, 
                           or search from their own unique list of contacts.`,
             tech: "HTML, CSS, Bootstrap, JavaScript, Node.js, Express, MySQL, Heroku",
-            image: "/images/projects/contact-manager.png",
+            image: "/images/projects/contactmanager.png",
             git: "mrkjdy/SmallProject",
             url: "https://github.com/mrkjdy/SmallProject",
             id: 1
@@ -24,7 +24,7 @@ const Projects = ({ id }) => {
                           media using various biometric scanners`,
             image: "/images/projects/sherlock.png",
             tech: "React, Redux, Node.js, Express, MongoDB, React-Bootstrap",
-            url: "https://github.com/BrendonLyra/Sherlock",
+            url: "https://github.com/BrendonLyra/Sherlock.png",
             git: "BrendonLyra/Sherlock",
             id:2
         },
@@ -34,7 +34,7 @@ const Projects = ({ id }) => {
             description: `Android app that tracks number of steps taken by utilizing the phones accelerometer, 
                           allows users to friend each other, and uses a website as a leaderboard `,
             tech: "HTML, CSS, Bootstrap, JavaScript, Node.js, Express, MySQL, Heroku, Android Studios",
-            image: "/images/projects/step-with-friends.png",
+            image: "/images/projects/stepwithfriends.png",
             url: "https://github.com/mrkjdy/large-project",
             git: "mrkjdy/large-project",
             id: 3

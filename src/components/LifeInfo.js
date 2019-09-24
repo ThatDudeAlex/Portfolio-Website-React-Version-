@@ -37,7 +37,7 @@ const LifeInfo = () => {
 
                         <p>
                             According to <a href="https://www.16personalities.com/profiles/98c606a8eec94"
-                                target="_blank" rel="noopener noreferrer"><span className="text-pink">16personalities.com</span></a>
+                                target="_blank" rel="noopener noreferrer"><span style={{color:"#990000"}}>16personalities.com</span></a>
                             <br></br>
                             Click to see my profile
                                 </p>

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from "react-scroll";
-import { NavLink , withRouter} from "react-router-dom";
+import { NavLink, withRouter } from "react-router-dom";
 import '../css/navbar.css';
 
 class Navbar extends Component {
@@ -12,31 +12,34 @@ class Navbar extends Component {
     }
 
     componentDidMount = () => {
-        const nav =  this.navRef.current;
+        const nav = this.navRef.current;
         const group = this.groupRef.current;
         const returnLink = this.returnRef.current;
 
         nav.className = "nav-items";
         group.className = "group-1";
 
-        if(this.props.location.pathname === "/bio"){
+        if (this.props.location.pathname === "/bio") {
             group.style.display = "none";
             returnLink.style.display = "inline-block";
         }
-        
+
         window.addEventListener("resize", this.handleResize);
     }
 
 
-    componentDidUpdate(){
+    componentDidUpdate() {
         const group = this.groupRef.current;
         const returnLink = this.returnRef.current;
 
-        if(this.props.location.pathname === "/bio"){
+        console.log("width: " + window.innerWidth);
+        console.log("height: " + window.innerHeight);
+
+        if (this.props.location.pathname === "/bio") {
             group.style.display = "none";
             returnLink.style.display = "inline-block";
         }
-        else{
+        else {
             group.style.display = "flex";
             returnLink.style.display = "none";
         }
@@ -72,7 +75,7 @@ class Navbar extends Component {
                                 exact to="/"
                                 className="nav-menu-link ml-5"
                             >
-                                <span id ="return-link" onClick={this.handleClick} ref={this.returnRef} style={{display:"none"}}>Previous Page</span>
+                                <span id="return-link" onClick={this.handleClick} ref={this.returnRef} style={{ display: "none" }}>Previous Page</span>
                             </NavLink>
                         </li>
 
@@ -168,13 +171,9 @@ class Navbar extends Component {
                             </li>
 
                             <li>
-                                <NavLink
-                                    to=""
-                                    className="nav-menu-link"
-                                    onClick={this.handleClick}
-                                >
+                                <a href="https://drive.google.com/open?id=152HOTp8CKLcM5k-by6bFTNAudheUIW-Q" target="_blank" rel="noopener noreferrer" className="nav-menu-link">
                                     <span>Resume</span>
-                                </NavLink>
+                                </a>
                             </li>
                         </span>
                     </ul>

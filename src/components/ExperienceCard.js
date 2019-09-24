@@ -22,7 +22,7 @@ const ExperienceCard = ({
 
 
     return (
-        <Container className="mb-5" id={`${companyName}-exp`}>
+        <Container className="mb-5 mt-5" id={`${companyName}-exp`}>
             <Card>
                 <Row>
                     <Col md="3" lg="2">

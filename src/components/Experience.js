@@ -46,7 +46,7 @@ const Experience = ({ id }) => {
             />
 
             <ExperienceCard
-                companyLogo="/images/experience/FIS_Logo.svg"
+                companyLogo="/images/experience/fis.svg"
                 altLogo="FIS logo"
                 companyUrl="https://fisglobal.com"
                 companyName="FIS Global"
@@ -63,7 +63,7 @@ const Experience = ({ id }) => {
                 date={`Jun 2019 - Aug 2019 | Orlando, Fl`}
             />
             <ExperienceCard className="text-center pt-3"
-                companyLogo="/images/experience/Valencia_Logo.svg"
+                companyLogo="/images/experience/valencia.svg"
                 altLogo="Valencia logo"
                 companyUrl="https://valenciacollege.edu/"
                 companyName="Valencia College"

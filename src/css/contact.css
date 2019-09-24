@@ -11,10 +11,10 @@
     background-color: #5cb5ea !important;
 }
 
-@media (min-width: 1201px){
+@media (min-width: 1200px){
     .contact-icons{
-      height: 70px;
-      width: 60px;
+      height: 90px;
+      width: 80px;
     }
   
     #contactComponent h5{
@@ -24,8 +24,8 @@
 
 @media (min-width: 1800px){
     .contact-icons{
-        height: 90px;
-        width: 80px;
+        height: 110px;
+        width: 100px;
     }
     
     #contactComponent h5{

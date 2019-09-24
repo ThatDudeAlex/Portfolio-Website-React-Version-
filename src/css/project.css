@@ -2,10 +2,6 @@
   .project-img{
     height: 85%;
   }
-  
-  .project-img-container:hover{
-    transform: scale(1.1,1.1);
-  }
 
   .projectCards{
     border: 6px solid black;
@@ -34,9 +30,12 @@
   }
   
   .prjName:hover, .prjUrl:hover {
-    color: rgb(161, 20, 79) !important;
+    color: #990000 !important;
   }
   
-  .projectCards:hover{
-    transform: scale(1.1,1.1);
+  @media screen and (min-width: 1200px){
+    .projectCards:hover{
+      transform: scale(1.1,1.1);
+    }
   }
+  

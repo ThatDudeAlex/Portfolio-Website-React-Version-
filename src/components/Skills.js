@@ -7,12 +7,12 @@ const Skills = ({id}) => {
 
     const languages = [
         {
-            imgSource: `c_logo.svg`,
+            imgSource: `c.svg`,
             imgDesc: `C`,
             lg: `3`
         },
         {
-            imgSource: `java_logo.svg`,
+            imgSource: `java.svg`,
             imgDesc: `Java`,
             lg: `3`
         },
@@ -40,7 +40,7 @@ const Skills = ({id}) => {
             lg: `3`
         },
         {
-            imgSource: `javascript_logo.svg`,
+            imgSource: `javascript.svg`,
             imgDesc: `JavaScript`,
             lg: `3`
         },
