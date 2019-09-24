@@ -99,11 +99,6 @@
     .bio-icon{
         height: 70px;
     }
-
-    .contact-bar:hover{
-        border-bottom: solid black 3px;
-    }
-
 }
 
 @media (min-width: 1400px) {
