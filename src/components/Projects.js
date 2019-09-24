@@ -13,7 +13,7 @@ const Projects = ({ id }) => {
                           or search from their own unique list of contacts.`,
             tech: "HTML, CSS, Bootstrap, JavaScript, Node.js, Express, MySQL, Heroku",
             image: "/images/projects/contact-manager.png",
-            git: "github.com/mrkjdy/SmallProject",
+            git: "mrkjdy/SmallProject",
             url: "https://github.com/mrkjdy/SmallProject",
             id: 1
         },
@@ -25,7 +25,7 @@ const Projects = ({ id }) => {
             image: "/images/projects/sherlock.png",
             tech: "React, Redux, Node.js, Express, MongoDB, React-Bootstrap",
             url: "https://github.com/BrendonLyra/Sherlock",
-            git: "github.com/BrendonLyra/Sherlock",
+            git: "BrendonLyra/Sherlock",
             id:2
         },
 
@@ -36,7 +36,7 @@ const Projects = ({ id }) => {
             tech: "HTML, CSS, Bootstrap, JavaScript, Node.js, Express, MySQL, Heroku, Android Studios",
             image: "/images/projects/step-with-friends.png",
             url: "https://github.com/mrkjdy/large-project",
-            git: "github.com/mrkjdy/large-project",
+            git: "mrkjdy/large-project",
             id: 3
         },
 
@@ -46,8 +46,8 @@ const Projects = ({ id }) => {
                           the image. Output is a new image showing only the edges of the original `,
             image: "/images/projects/cannyFinal.png",
             tech: "C, 256x256 PGM images",
-            url: "",
-            git: "",
+            url: "https://github.com/ThatDudeAlex/Canny-Edge-Detection",
+            git: "ThatDudeAlex/Canny-Edge-Detection",
             id: 4
         },
 
@@ -68,8 +68,8 @@ const Projects = ({ id }) => {
                           allowing it to predict the next word`,
             image: "/images/projects/tries_prj.svg",
             tech: "C, Trie data structure",
-            url: "",
-            git: "",
+            url: "https://github.com/ThatDudeAlex/Trie-Text-Prediction-",
+            git: "ThatDudeAlex/Trie-Text-Prediction-",
             id: 6
         }
     ];

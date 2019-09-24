@@ -9,10 +9,6 @@ import Contact from '../components/Contact';
 // Main landing page for my portfolio site 
 class Portfolio extends Component {
 
-    constructor(props) {
-        super(props)
-    }
-
     componentDidMount = () => {
         window.scrollTo(0, 0);
     }

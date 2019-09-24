@@ -9,10 +9,6 @@ import PageFooter from '../components/PageFooter';
 // Main landing page for my portfolio site 
 class Bio extends Component {
 
-    constructor(props) {
-        super(props)
-    }
-
     componentDidMount = () => {
         window.scrollTo(0, 0);
     }

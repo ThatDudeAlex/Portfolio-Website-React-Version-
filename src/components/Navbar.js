@@ -29,7 +29,6 @@ class Navbar extends Component {
 
 
     componentDidUpdate(){
-        const nav =  this.navRef.current;
         const group = this.groupRef.current;
         const returnLink = this.returnRef.current;
 

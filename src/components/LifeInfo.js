@@ -31,13 +31,13 @@ const LifeInfo = () => {
                         <p><strong>Personality Type</strong></p>
                     </li>
                     <li style={{ listStyle: "none" }}>
-                        <a href="https://www.16personalities.com/profiles/98c606a8eec94" target="_blank">
+                        <a href="https://www.16personalities.com/profiles/98c606a8eec94" target="_blank" rel="noopener noreferrer">
                             <embed src="images/personality.png" id="img-personality" />
                         </a>
 
                         <p>
                             According to <a href="https://www.16personalities.com/profiles/98c606a8eec94"
-                                target="_blank"><span className="text-pink">16personalities.com</span></a>
+                                target="_blank" rel="noopener noreferrer"><span className="text-pink">16personalities.com</span></a>
                             <br></br>
                             Click to see my profile
                                 </p>
