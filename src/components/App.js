@@ -5,6 +5,7 @@ import {
 } from "react-router-dom";
 import Portfolio from '../pages/Portfolio';
 import Bio from '../pages/Bio';
+import '../css/normalize.css';
 import '../css/index.css';
 import Navbar from './Navbar';
 

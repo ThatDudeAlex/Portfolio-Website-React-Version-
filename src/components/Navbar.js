@@ -70,12 +70,12 @@ class Navbar extends Component {
                     <i className="fa fa-bars toggle" onClick={this.handleClick}></i>
                     <ul className="nav-items" ref={this.navRef}>
 
-                        <li>
+                        <li onClick={this.handleClick} ref={this.returnRef} style={{ display: "none" }}>
                             <NavLink
                                 exact to="/"
                                 className="nav-menu-link ml-5"
                             >
-                                <span id="return-link" onClick={this.handleClick} ref={this.returnRef} style={{ display: "none" }}>Previous Page</span>
+                                <span id="return-link">Previous Page</span>
                             </NavLink>
                         </li>
 

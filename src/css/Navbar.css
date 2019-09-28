@@ -1,7 +1,9 @@
 .collapsible-menu {
-    position: -webkit-sticky;
-    position: sticky;
+    /* position: -webkit-sticky; */
+    position: fixed;
     top: 0px;
+    left: 0px;;
+    right: 0px;
     background-color: black;
     padding: 0px 10px;
     z-index: 100;

@@ -28,7 +28,7 @@ const ExperienceCard = ({
                     <Col md="3" lg="2">
                         <a href={companyUrl} target="_blank" rel="noopener noreferrer">
                             <img src={companyLogo} id={id}
-                                className="fluid-img p-0 mb-3 mb-md-0 pt-3 pl-md-2" alt={altLogo} />
+                                className="exp-imgs p-0 mb-3 mb-md-0 pt-3 pl-md-2" alt={altLogo} />
                         </a>
                     </Col>
 
