@@ -30,7 +30,7 @@
   }
   
   .prjName:hover, .prjUrl:hover {
-    color: #990000 !important;
+    color: #bb5a30 !important;
   }
   
   @media screen and (min-width: 1200px){
