@@ -5,7 +5,7 @@ import '../css/about.css';
 
 const About = ({ id }) => {
     return (
-        <div id={id} className="pt-xs-5 mt-xs-5 mt-md-0 pt-md-0">
+        <div id={id}>
     
             <Container>
                 <div id="about-top-container">
@@ -88,8 +88,7 @@ const About = ({ id }) => {
                     </div>
 
                     <div id="about-portrait">
-                        <img src="/images/me.jpg"
-                            className="p-0 mb-3 mb-md-0" alt="Alex Nunez" id="profile-img"/>
+                        <img src="/images/me.jpg" className="p-0 mb-3 mb-md-0" alt="Alex Nunez" id="profile-img"/>
                     </div>
                 </div>
 

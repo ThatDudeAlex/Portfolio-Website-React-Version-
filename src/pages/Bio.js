@@ -17,7 +17,7 @@ class Bio extends Component {
         return (
             <div className="bio-background">
                 <Container >
-                    <p className="text-introduction pt-5 pb-5">
+                    <p className="text-introduction">
                         HELLO. I’M ALEX, A COMPUTER SCIENCE STUDENT AND MATH TUTOR.<br></br>
                         I'M ALSO THE PROJECT MANAGER OF A TEAM & AN ASPIRING ENTREPRENEUR
                     </p>

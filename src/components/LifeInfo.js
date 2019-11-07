@@ -32,7 +32,7 @@ const LifeInfo = () => {
                     </li>
                     <li style={{ listStyle: "none" }}>
                         <a href="https://www.16personalities.com/profiles/98c606a8eec94" target="_blank" rel="noopener noreferrer">
-                            <embed src="images/personality.png" id="img-personality" />
+                            <img src="/images/personality.png" id="img-personality" alt="my personality type"/>
                         </a>
 
                         <p>
@@ -231,6 +231,7 @@ const LifeInfo = () => {
                         <li><strong>Burn the Business Plan:</strong> What Great Entrepreneurs Really Do, by Carl
                                     Schramm</li>
                         <li><strong>The Richest Man in Babylon</strong>, by George Samuel Clason</li>
+                        <li><strong>The Compound Effect</strong>, by Darren Hardy</li>
                     </ul>
                 </ul>
             </Col>

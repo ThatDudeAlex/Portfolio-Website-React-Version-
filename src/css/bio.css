@@ -1,3 +1,4 @@
+
 /* Intro text */
 @font-face {
     font-family: 'alternate_gothic_no2_dregular';
@@ -14,6 +15,7 @@
 
 
 .text-introduction{
+    padding-top: 7%;
     font-family: "alternate_gothic_no2_dregular" !important;
     font-size: 32px;
 }
@@ -50,7 +52,7 @@
 
 /* Image styles */
 #img-personality{
-    width: 70%;
+    width: 80% !important;
     border-radius: 5%;
     border: solid black 3px;
 }
