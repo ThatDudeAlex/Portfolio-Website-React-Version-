@@ -58,13 +58,13 @@ const ExperienceCard = ({
                             </p>
 
                             <ul>
-                                {jobDesc.map(job => (<li key={job.id}>{job.desc}</li>))}
+                                {jobDesc.map(job => (<li key={job.desc}>{job.desc}</li>))}
                             </ul>
 
                             <h5><strong>Accomplishments</strong></h5>
 
                             <ul>
-                                {accomplishments.map(accomplish => (<li key={accomplish.id}>{accomplish.desc}</li>))}
+                                {accomplishments.map(accomplish => (<li key={accomplish.desc}>{accomplish.desc}</li>))}
                             </ul>
                         </Col>
                     </CardBody>

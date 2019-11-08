@@ -32,9 +32,6 @@ class Navbar extends Component {
         const group = this.groupRef.current;
         const returnLink = this.returnRef.current;
 
-        console.log("width: " + window.innerWidth);
-        console.log("height: " + window.innerHeight);
-
         if (this.props.location.pathname === "/bio") {
             group.style.display = "none";
             returnLink.style.display = "inline-block";
